@@ -1,0 +1,57 @@
+/* style.css do site do Flamengo */
+
+/* seletor de tag */
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+h1 {
+    color: #c8102e;
+    text-align: center; /* centraliza o h1 */
+    font-size: 48px;
+    text-transform: uppercase; /* deixa tudo maiúsculo */
+}
+
+/* agrupei o h2 e o h3 */
+h2, h3 {
+    color: #c8102e;
+    font-family: 'Bebas Neue', sans-serif; /* fonte do google fonts */
+    text-decoration: underline;
+}
+
+/* classe */
+.destaque {
+    text-align: justify;
+}
+
+/* id */
+#escudo {
+    width: 150px;
+}
+
+/* box model: margin, padding e border */
+.caixa {
+    margin: 20px;
+    padding: 15px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #c8102e;
+    border-radius: 10px;
+}
+
+/* listas */
+.lista-titulos {
+    list-style-type: square;
+}
+
+.lista-elenco {
+    list-style-type: decimal;
+}
+
+/* hover dos links */
+a:hover {
+    color: #c8102e;
+    text-decoration: underline;
+}
